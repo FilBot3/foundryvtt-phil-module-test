@@ -14,21 +14,21 @@
       "label": "My Items",
       "path": "dist/packs/items.db",
       "entity": "Item",
-      "module": "phil-module-test"
+      "module": "foundryvtt-phil-module-test"
     },
     {
       "name": "actors",
       "label": "My Actors",
       "path": "dist/packs/actors.db",
       "entity": "Actor",
-      "module": "phil-module-test"
+      "module": "foundryvtt-phil-module-test"
     },
     {
       "name": "scenes",
       "label": "My Scenes",
       "path": "dist/packs/scenes.db",
       "entity": "Scene",
-      "module": "phil-module-test"
+      "module": "foundryvtt-phil-module-test"
     }
   ],
   "system": ["worldbuilding"],
@@ -44,6 +44,6 @@
   "download": "https://url.to.download/release/master.zip",
   "license": "LICENSE.txt",
   "readme": "README.md",
-  "bugs": "https://github.com/predatorian3/phil-module-test/issues",
+  "bugs": "https://github.com/filbot3/foundryvtt-phil-module-test/issues",
   "changelog": "https://url.to.download/changelog.md"
 }
