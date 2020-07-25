@@ -1,0 +1,49 @@
+{
+  "name": "foundryvtt-phil-module-test",
+  "title": "Phil Module Test",
+  "description": "Phils module development testing module",
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.5.5",
+  "compatibleCoreVersion": "0.5.5",
+  "scripts": ["dist/scripts"],
+  "esmodules": ["dist/esmodules"],
+  "styles": ["dist/styles"],
+  "packs": [
+    {
+      "name": "items",
+      "label": "My Items",
+      "path": "dist/packs/items.db",
+      "entity": "Item",
+      "module": "phil-module-test"
+    },
+    {
+      "name": "actors",
+      "label": "My Actors",
+      "path": "dist/packs/actors.db",
+      "entity": "Actor",
+      "module": "phil-module-test"
+    },
+    {
+      "name": "scenes",
+      "label": "My Scenes",
+      "path": "dist/packs/scenes.db",
+      "entity": "Scene",
+      "module": "phil-module-test"
+    }
+  ],
+  "system": ["worldbuilding"],
+  "authors": [
+    {
+      "name": "Phillip Dudley",
+      "email": "Predatorian3@gmail.com",
+      "url": "https://filbot3.github.io"
+    }
+  ],
+  "url": "https://filbot3.github.io",
+  "manifest": "https://url.to.download/location/manifest.json",
+  "download": "https://url.to.download/release/master.zip",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "https://github.com/predatorian3/phil-module-test/issues",
+  "changelog": "https://url.to.download/changelog.md"
+}
